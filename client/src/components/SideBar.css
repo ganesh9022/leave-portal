@@ -1,0 +1,13 @@
+.sdnav-conatiner{
+    color: #89f4f8;
+    background-color: blue;
+}
+.sdnav-conatiner p{
+    font-size: large;
+}
+.contains{
+    font-size: large;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
