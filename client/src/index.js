@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+// import Color1 from './Color1';
+import '@radix-ui/themes/styles.css';
+import { Theme } from '@radix-ui/themes';
+import Project1 from './Project1';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <Theme>
+        <Project1/>
+    </Theme>
   </React.StrictMode>
 );
-reportWebVitals();

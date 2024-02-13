@@ -1,33 +1,19 @@
-import './App.css';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import SideBar from './components/SideBar';
-import LeaveBalanceCard from './components/LeavesBalanceCart';
-import UpcommingHolidaysCart from './components/UpcommingHolidaysCart';
-import SearchBar from './components/SearchBar';
-import RightSide from './components/RightSide';
+import React from 'react'
+import color from './color'
 
 
-function App() {
+
+const App = () => {
   return (
-    
-
-    <BrowserRouter>
-    <div className="app">
-      <Routes>
-        <Route path='/'
-        element={<div><RightSide/></div>}/>
-
-      
-      
-        
-
-       
-      </Routes>
-      </div>
-    </BrowserRouter>
-    
-   
-  );
+    <div>
+      {/* <Timesheet/>
+      <Navbar/>
+      <Leavebalance/> */}
+      {/* <Sidebar/>
+      <Timesheet /> */}
+  <color/>
+    </div>
+  )
 }
 
-export default App;
+export default App
