@@ -9,13 +9,13 @@ const Sidebar = () => {
       <Grid align="center" columns="1" gap="5" style={{ maxWidth: 240, margin: 20 }}>
         <Flex direction="column">
           <Text size="6" weight="bold">
-            <h1>Dashboard</h1>
+            <h1>Dashboard added </h1>
           </Text>
         </Flex>
         <Grid align="center" columns="1" gap="5" p="3">
             <Flex direction="column">
               <Text size="4" weight="bold">
-                <h1>Dashboard</h1>
+                <h1> added </h1>
               </Text>
             </Flex>
 
